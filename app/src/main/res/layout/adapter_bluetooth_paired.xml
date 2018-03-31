@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout_bluetooth_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_bluetooth_paired_listview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bluetooth_item_height_90px"
+        android:layout_marginBottom="@dimen/bluetooth_all_layout_margin_bottom_11px"
+        android:layout_marginLeft="@dimen/bluetooth_all_layout_margin_left_27px"
+        android:layout_marginRight="@dimen/bluetooth_all_layout_margin_right_20px"
+        android:layout_marginTop="@dimen/bluetooth_all_layout_margin_top_11px"
+        android:background="@drawable/bluetooth_linearlayout_unfocus_border"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageview_bluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/bluetooth_unpair_imageview_layout_margin_left_56px"
+            android:layout_marginRight="@dimen/bluetooth_unpair_imageview_layout_margin_right_35px" />
+
+        <TextView
+            android:id="@+id/textview_bluetooth_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageview_bluetooth"
+            android:textColor="@color/bluetooth_textview_unfocus_font_color"
+            android:textSize="@dimen/bluetooth_second_unfocus_textview_size_39px" />
+        <!--<TextView-->
+        <!--android:id="@+id/textview_bluetooth_paired_devices_sub"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginStart="9dp"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_toEndOf="@+id/imageview_bluetooth" />-->
+    </RelativeLayout>
+</LinearLayout>

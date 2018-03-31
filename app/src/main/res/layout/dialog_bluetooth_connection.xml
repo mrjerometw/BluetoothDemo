@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/bluetooth_dialog_connect_width_1024px"
+    android:layout_height="@dimen/bluetooth_dialog_connect_high_495px"
+    android:background="@drawable/bluetooth_dialog_background"
+    android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bluetooth_dialog_connect_high_342px"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_bluetooth_dialog_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/bluetooth_dialog_textview_layout_margin_left_63px"
+            android:layout_marginRight="@dimen/bluetooth_dialog_textview_layout_margin_left_63px"
+            android:layout_marginTop="@dimen/bluetooth_dialog_textview_layout_margin_top_214px"
+            android:gravity="center"
+            android:text="@string/bluetooth_unpair_confirm_message"
+            android:textColor="@color/bluetooth_dialog_textview_unfocus_font_color_05"
+            android:textSize="@dimen/bluetooth_dialog_textview_font_size_39px" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/bluetooth_dialog_button_layout_margin_left_198px"
+        android:paddingRight="@dimen/bluetooth_dialog_button_layout_margin_right_198px">
+
+        <Button
+            android:id="@+id/button_bluetooth_dialog_pair"
+            android:layout_width="@dimen/bluetooth_dialog_button_width_256px"
+            android:layout_height="@dimen/bluetooth_dialog_button_high_128px"
+            android:layout_weight="1.0"
+            android:background="#00000000"
+            android:clickable="true"
+            android:text="@string/bluetooth_pair_button"
+            android:textColor="@color/bluetooth_dialog_textview_focus_font_color_ffffff"
+            android:textSize="@dimen/bluetooth_dialog_button_font_size_36px" />
+
+        <Button
+            android:id="@+id/button_bluetooth_dialog_cancel"
+            android:layout_width="@dimen/bluetooth_dialog_button_width_256px"
+            android:layout_height="@dimen/bluetooth_dialog_button_high_128px"
+            android:layout_weight="1.0"
+            android:background="#00000000"
+            android:clickable="true"
+            android:text="@string/bluetooth_cancel_button"
+            android:textColor="@color/bluetooth_dialog_textview_unfocus_font_color_f0f5fa_035"
+            android:textSize="@dimen/bluetooth_dialog_button_font_size_36px" />
+    </LinearLayout>
+
+</LinearLayout>

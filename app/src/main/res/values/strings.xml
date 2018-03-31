@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Bluetooth Sample</string>
+    <string name="bluetooth_bluetooth">藍牙</string>
+    <string name="bluetooth_cancel_button">取消</string>
+    <string name="bluetooth_connection_fail_message">PIN或配對密鑰不正確, 無法與 \"%1$s\" 配對</string>
+    <string name="bluetooth_ok_button">確定</string>
+    <string name="bluetooth_pair_button">配對</string>
+    <string name="bluetooth_pair_confirm_message">與 \"%1$s\" 配對, 密鑰為：</string>
+    <string name="bluetooth_paired_devices_textview">已配對的設備</string>
+    <string name="bluetooth_subtitle">添加或管理外接设备</string>
+    <string name="bluetooth_title">外设与蓝牙</string>
+    <string name="bluetooth_unpair_confirm_message">確定取消與 \"%1$s\" 的配對嗎?</string>
+    <string name="bluetooth_switch_textview">藍芽開關</string>
+    <string name="bluetooth_switch_turnoff_textview">關閉</string>
+    <string name="bluetooth_switch_turnon_textview">開啟</string>
+    <string name="bluetooth_searching_textview">搜尋設備</string>
+    <string name="bluetooth_add_remote_textview">添加遙控器</string>
+    <string name="bluetooth_device_found_textview">搜尋到的設備</string>
+    <string name="bluetooth_dialog_searching_ready_textview">準備</string>
+    <string name="bluetooth_dialog_searching_connecting_textview">連接中</string>
+    <string name="bluetooth_dialog_searching_successful_textview">連接成功</string>
+    <string name="bluetooth_dialog_searching_ready_message">開始配對藍牙遙控器</string>
+    <string name="bluetooth_dialog_searching_ready_message2">請先安裝好電池</string>
+    <string name="bluetooth_dialog_searching_ready_message3_1">同時按下</string>
+    <string name="bluetooth_dialog_searching_ready_message3_2">和</string>
+    <string name="bluetooth_dialog_searching_ready_message3_3">鍵靠近盒子</string>
+    <string name="bluetooth_dialog_searching_ready_message4">其他品牌遙控器配對方式請參考說明書</string>
+    <string name="bluetooth_dialog_searching_ready_error_message">開始配對藍牙遙控器</string>
+    <string name="bluetooth_dialog_searching_ready_error_message2">未搜索到藍牙遙控器</string>
+    <string name="bluetooth_dialog_searching_ready_error_message3">請稍後重試</string>
+    <string name="bluetooth_dialog_searching_ready_error_message4"></string>
+    <string name="bluetooth_dialog_searching_connecting_message">藍牙遙控器正在配對</string>
+    <string name="bluetooth_dialog_searching_connecting_message2">連接中,請稍後...</string>
+    <string name="bluetooth_dialog_searching_connecting_message3"></string>
+    <string name="bluetooth_dialog_searching_connecting_message4"></string>
+    <string name="bluetooth_dialog_searching_connection_sucessful_message">藍牙遙控器配對成功</string>
+    <string name="bluetooth_dialog_searching_connection_sucessful_message2">配對成功, 請使用</string>
+    <string name="bluetooth_dialog_searching_connection_sucessful_message3"></string>
+    <string name="bluetooth_dialog_searching_connection_sucessful_message4"></string>
+    <string name="bluetooth_dialog_searching_connection_fail_message">藍牙遙控器配對失敗</string>
+    <string name="bluetooth_dialog_searching_connection_fail_message2">配對超時,3s後重新配對</string>
+    <string name="bluetooth_dialog_searching_connection_fail_message3"></string>
+    <string name="bluetooth_dialog_searching_connection_fail_message4"></string>
+
+
+</resources>

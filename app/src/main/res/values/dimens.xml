@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="master_title_settings_txt_size">28sp</dimen>
+    <dimen name="master_btn_title_selected_txt_size">46sp</dimen>
+    <dimen name="master_btn_title_unselected_txt_size">24sp</dimen>
+    <dimen name="master_btn_subtitle_txt_size">24sp</dimen>
+    <dimen name="network_title_txt_size">17sp</dimen>
+    <dimen name="network_list_ssid_txt_size">25sp</dimen>
+    <dimen name="network_list_content_txt_size">16sp</dimen>
+    <dimen name="network_list_margin_size">25dp</dimen>
+    <dimen name="network_info_title_txt_size">29sp</dimen>
+    <dimen name="network_info_subtitle_txt_size">17sp</dimen>
+    <dimen name="network_info_ip_row_txt_size">24sp</dimen>
+    <dimen name="network_info_button_txt_size">25sp</dimen>
+    <dimen name="network_pwd_title_txt_size">29sp</dimen>
+    <dimen name="network_pwd_subtitle_txt_size">17sp</dimen>
+    <dimen name="network_pwd_input_hint_txt_size">23sp</dimen>
+    <dimen name="bluetooth_main_textview_size_26px">17sp</dimen>
+    <dimen name="bluetooth_main_textview_layout_margin_top_50px">33dp</dimen>
+    <dimen name="bluetooth_second_focus_textview_size_40px">26sp</dimen>
+    <dimen name="bluetooth_second_unfocus_textview_size_39px">26sp</dimen>
+    <dimen name="bluetooth_second_textview_layout_margin_left_48px">32dp</dimen>
+    <dimen name="bluetooth_second_imageview_layout_margin_right_66px">44dp</dimen>
+    <dimen name="bluetooth_item_height_90px">60dp</dimen>
+    <dimen name="bluetooth_all_layout_left_padding_40px">26dp</dimen>
+    <dimen name="bluetooth_all_layout_right_padding_110px">73dp</dimen>
+    <dimen name="bluetooth_all_layout_margin_top_66px">44dp</dimen>
+    <dimen name="bluetooth_all_layout_margin_left_27px">18dp</dimen>
+    <dimen name="bluetooth_all_layout_margin_left_67px">44dp</dimen>
+    <dimen name="bluetooth_all_layout_margin_top_11px">7dp</dimen>
+    <dimen name="bluetooth_all_layout_margin_bottom_11px">7dp</dimen>
+    <dimen name="bluetooth_all_layout_margin_right_20px">13dp</dimen>
+    <dimen name="bluetooth_unpair_imageview_layout_margin_left_56px">37dp</dimen>
+    <dimen name="bluetooth_unpair_imageview_layout_margin_right_35px">23dp</dimen>
+    <dimen name="bluetooth_dialog_connect_high_495px">330dp</dimen>
+    <dimen name="bluetooth_dialog_connect_width_1024px">682dp</dimen>
+    <dimen name="bluetooth_dialog_connect_high_342px">228dp</dimen>
+    <dimen name="bluetooth_dialog_textview_layout_margin_top_214px">142dp</dimen>
+    <dimen name="bluetooth_dialog_textview_layout_margin_bottom_128px">85dp</dimen>
+    <dimen name="bluetooth_dialog_textview_layout_margin_bottom_63px">42dp</dimen>
+    <dimen name="bluetooth_dialog_textview_layout_margin_left_63px">42dp</dimen>
+    <dimen name="bluetooth_dialog_textview_layout_margin_right_63px">42dp</dimen>
+    <dimen name="bluetooth_dialog_textview_font_size_39px">26sp</dimen>
+    <dimen name="bluetooth_dialog_button_width_256px">170dp</dimen>
+    <dimen name="bluetooth_dialog_button_high_128px">85dp</dimen>
+    <dimen name="bluetooth_dialog_button_font_size_36px">24sp</dimen>
+    <dimen name="bluetooth_dialog_button_layout_margin_left_198px">132dp</dimen>
+    <dimen name="bluetooth_dialog_button_layout_margin_right_198px">132dp</dimen>
+    <dimen name="bluetooth_dialog_searching_high_768px">512dp</dimen>
+    <dimen name="bluetooth_dialog_searching_width_1024px">682dp</dimen>
+    <dimen name="bluetooth_dialog_searching_layout_margin_70px">46dp</dimen>
+    <dimen name="bluetooth_dialog_searching_layout_margin_30px">20dp</dimen>
+    <dimen name="bluetooth_dialog_searching_layout_margin_minus_40px">-26dp</dimen>
+    <dimen name="bluetooth_dialog_searching_layout_margin_210px">140dp</dimen>
+    <dimen name="bluetooth_dialog_searching_layout_margin_420px">280dp</dimen>
+    <dimen name="bluetooth_dialog_searching_textview_font_size_50px">33sp</dimen>
+    <dimen name="bluetooth_dialog_searching_textview_font_size_34px">22sp</dimen>
+    <dimen name="bluetooth_dialog_searching_textview_font_size_26px">17sp</dimen>
+    <dimen name="bluetooth_dialog_searching_textview_font_size_24px">16sp</dimen>
+
+    <dimen name="button_item_height_90px">@dimen/bluetooth_item_height_90px</dimen>
+    <dimen name="button_item_margin_left">@dimen/bluetooth_second_textview_layout_margin_left_48px</dimen>
+    <dimen name="button_item_text_size">@dimen/bluetooth_second_unfocus_textview_size_39px</dimen>
+    <dimen name="button_item_subtext_size">15sp</dimen>
+    <dimen name="button_layout_margin_top">@dimen/bluetooth_all_layout_margin_top_11px</dimen>
+    <dimen name="button_layout_margin_bottom">@dimen/bluetooth_all_layout_margin_bottom_11px</dimen>
+    <dimen name="button_layout_margin_left">@dimen/bluetooth_all_layout_margin_left_27px</dimen>
+    <dimen name="button_layout_margin_right">@dimen/bluetooth_all_layout_margin_left_27px</dimen>
+
+
+
+</resources>
